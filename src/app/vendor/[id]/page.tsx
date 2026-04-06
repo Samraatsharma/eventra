@@ -165,9 +165,9 @@ export default function VendorProfilePage({ params }: { params: { id: string } }
 
         {/* Testimonial */}
         <section className="bg-surface-container-low rounded-[4rem] p-24 text-center space-y-8">
-          <span className="text-6xl text-secondary opacity-50">"</span>
+          <span className="text-6xl text-secondary opacity-50">&quot;</span>
           <p className="font-headline text-4xl md:text-5xl font-extrabold italic text-on-surface leading-tight max-w-4xl mx-auto">
-            "Exceptional service and attention to detail. They transformed our vision into reality."
+            &quot;Exceptional service and attention to detail. They transformed our vision into reality.&quot;
           </p>
           <div className="flex flex-col items-center">
             <div className="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-primary bg-gradient-to-br from-primary/30 to-secondary/30"></div>

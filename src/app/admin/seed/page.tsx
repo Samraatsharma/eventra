@@ -201,8 +201,8 @@ export default function SeedPage() {
             <ol className="list-decimal list-inside space-y-2 text-on-surface-variant text-sm">
               <li>Go to Firebase Console → Firestore Database → Rules</li>
               <li>Temporarily change vendor create rule to: <code className="bg-surface-container px-2 py-1 rounded">allow create: if true;</code></li>
-              <li>Click "Publish" to deploy the rules</li>
-              <li>Come back here and click "Seed Database"</li>
+              <li>Click &quot;Publish&quot; to deploy the rules</li>
+              <li>Come back here and click &quot;Seed Database&quot;</li>
               <li>After seeding, revert the rule back to: <code className="bg-surface-container px-2 py-1 rounded">allow create: if request.auth != null;</code></li>
             </ol>
           </div>
