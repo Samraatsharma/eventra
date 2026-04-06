@@ -34,7 +34,7 @@ export default function BookingPage() {
 
     try {
       await createBooking({
-        userId: user.uid,
+        userId: user.id,
         vendorId: 'general', // This would come from vendor selection
         eventDate,
         eventType,
